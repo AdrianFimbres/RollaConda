@@ -1,1 +1,1 @@
-This is the landing page for the videgame RollaConda that will be in progress.
+This is the landing page for the videogame RollaConda that is in progress. ETA Q4 2027.
