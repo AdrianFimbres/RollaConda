@@ -47,3 +47,44 @@ header ul {
     list-style-type: none; /* removed bullepoints */
     gap: 16px;
 }
+
+/* HERO SECTION */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 32px;
+    background-color: var(--dark-bg);
+    color: var(--hero-secondary-text);
+}
+
+.hero-section h1 {
+  font-size: var(--font-lg);
+  font-weight: 900;
+  color: var(--hero-main-text);
+}
+
+.hero-section p {
+  font-size: var(--font-sm);
+  color: var(--hero-secondary-text);
+}
+
+.hero-section button {
+  background-color: var(--button-color);
+  color: var(--hero-main-text);
+  font-weight: bold;
+  font-size: var(--font-sm);
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: none;
+}
+
+.hero-section .image-placeholder {
+  width: 450px;
+  height: 220px;
+  background-color: #6d737a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
