@@ -125,3 +125,27 @@ header ul {
   font-weight: 900; /* Core Mechanics extra-bold */
   color: var(--dark-bg);
 }
+
+/* QUOTE SECTION */
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--quote-bg);
+    color: var(--quote-text);
+    padding: 100px; 
+}
+
+.quote-section p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--quote-text);
+}
+
+.quote-section figcaption {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  margin-top: 8px;
+}
