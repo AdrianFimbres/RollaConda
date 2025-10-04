@@ -149,3 +149,25 @@ header ul {
   text-align: right;
   margin-top: 8px;
 }
+
+/* CTA SECTION */
+.cta-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--button-color);
+    color: var(--hero-main-text);
+    margin: 50px 150px;
+    padding: 50px 100px;
+    border-radius: 8px;
+}
+
+.cta-section button {
+  background-color: var(--button-color);
+  color: var(--hero-main-text);
+  font-weight: bold;
+  font-size: var(--font-sm);
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: none;
+}
