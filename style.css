@@ -171,3 +171,13 @@ header ul {
   border-radius: 8px;
   border: none;
 }
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: var(--dark-bg);
+    color: var(--hero-secondary-text);
+}
