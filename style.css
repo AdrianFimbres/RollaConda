@@ -80,13 +80,12 @@ header ul {
   border: none;
 }
 
-.hero-section .image-placeholder {
-  width: 450px;
-  height: 220px;
-  background-color: #6d737a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.hero-section img {
+  /* width: 450px; */
+  /* height: 220px; */
+  max-width: 30%;
+  height: auto;  
+  border-radius: 8px;
 }
 
 /* INFO SECTION */
