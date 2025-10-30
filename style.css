@@ -180,3 +180,57 @@ footer {
     background-color: var(--dark-bg);
     color: var(--hero-secondary-text);
 }
+
+/* ADJUSTED FOR MOBILE */
+/* Applies to all screens 768px wide or smaller */
+@media (max-width: 768px) {
+
+    /* 1. HEADER */
+    header {
+        flex-direction: column; /* Stacking logo and nav links */
+        gap: 20px;
+        padding: 20px;
+    }
+
+    header ul {
+        flex-direction: column; /* Stacking nav links for better order and readability */
+        align-items: center; /* Centering the links */
+        gap: 15px;
+    }
+
+    /* 2. HERO SECTION */
+    .hero-section {
+        flex-direction: column; /* Stacking text and image below it*/
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .hero-section img {
+        max-width: 80%; /* image larger for mobile */
+    }
+
+    /* 3. INFO SECTION */
+    .info-section {
+        padding: 50px 20px;
+    }
+
+    .cards-container {
+        flex-direction: column; /* Stacking info cards for readability */
+        align-items: center;
+    }
+
+    /* 4. QUOTE SECTION */
+    .quote-section {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    /* 5. CTA SECTION */
+    .cta-section {
+        flex-direction: column; /* Stacking text and button */
+        text-align: center;
+        gap: 20px;
+        margin: 50px 20px;
+        padding: 30px;
+    }
+}
